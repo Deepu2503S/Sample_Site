@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: rgb(10, 10, 67);
+    color: rgb(255, 255, 255);
+}
+
+.parent {
+    display: flex;
+    gap: 10em;
+}
+
+.parent a {
+    text-decoration: none;
+    color: #ae9797;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.parent a:hover {
+    background-color: #e2e6ea;
+}
+
+#p1 {
+    display: none;
+    align-items: center;
+}
+
+.p2 {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 7%;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(10, 10, 67);
+    min-width: 160px;
+    box-shadow: 1px 8px 16px 1px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.dropdown-content a {
+    color: rgb(174, 130, 130);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .parent {
+        display: none;
+    }
+    #p1 {
+        display: block;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+}
+
+.entropy {
+    background-image: url('https://i.pinimg.com/564x/da/17/8f/da178f89d54e6c9a82082cce15c943c8.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: cursive;
+    width: 100%;
+    flex: 1;
+    text-align: center;
+    margin-top: 2vw;
+    color: rgb(210, 203, 203);
+    font-size: 100px;
+}
+
+.placard {
+    margin: 1vw 0.2vw;
+    padding: 1.2vw;
+    background-color: #cbd7e4;
+    border-radius: 8px;
+    box-shadow: 100px 100px 100px rgba(218, 118, 118, 0.1);
+}
+
+.placard h2 {
+    text-decoration: none;
+    color: #ae9797;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: rgb(10, 10, 67);
+}
+
+.placard p {
+    color: #333;
+    margin : 1.54vw;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+#placard1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pl1{
+    margin-right: 7vw;
+}
+
