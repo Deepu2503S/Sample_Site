@@ -1,0 +1,22 @@
+footer{
+    padding: 10px;
+    text-align: center;
+    margin: 80px;
+    font-family: cursive;
+}
+
+h1{
+    font-size: 500%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-decoration: solid;
+    margin: 50px;
+    padding: 50px;
+}
+div{
+    text-align: center;
+    margin: 20px;
+}
+body{
+    background-color: lightgray;
+}
