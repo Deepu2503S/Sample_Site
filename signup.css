@@ -1,5 +1,4 @@
 footer{
-    display: none;
     padding: 10vw;
     text-align: center;
     /* width: 100%; */
@@ -35,8 +34,16 @@ body{
     background-image: url(https://designerapp.officeapps.live.com/designerapp/document.ashx?path=/a7df1963-e576-43ad-9840-e536644b2309/DallEGeneratedImages/dalle-aad1d757-a922-4ce3-9f15-4f77254d29820251685130679824230000.jpg&dcHint=IndiaCentral&fileToken=dbeb9dec-2a60-46eb-bfcf-9fc6c8239cc8);
 }
 
-.button{
-    padding: 20px;
+button{
+    background-color: greenyellow;
+    /* display: block; */
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(31, 107, 31);
+}
+
+button:hover{
+    background-color: darkgreen;
 }
 
 main{
@@ -45,6 +52,22 @@ main{
     /* background-color: rosybrown; */
     border: 3px solid rgb(189, 141, 141);
     backdrop-filter: blur(20px);
+}
+
+.home button{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(126, 198, 235);
+    border: 2px rgb(104, 128, 67);
+    padding: 10px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(9, 0, 139);
+}
+
+.home button:hover{
+    background-color: darkblue;
+    color: wheat;
 }
 
 @media (max-width:600px) {
